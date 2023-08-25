@@ -1,0 +1,214 @@
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-size: 43px;
+    font-weight: bold;
+
+}
+
+.navbar {
+    font-size: 23px;
+}
+
+.nav-item {
+    padding: 13px;
+    font-weight: 250;
+}
+
+#navbarSupportedContent {
+    margin-top: -18px;
+    margin-bottom: -11px;
+}
+
+.nav-link:hover {
+    background: #c0bebe;
+}
+
+
+
+/* main */
+.section-title {
+    font-size: 20px;
+}
+
+.display-3 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.w-100 {
+    opacity: 0.5;
+}
+
+/* main end*/
+
+
+/* About */
+.col-lg-6 {
+    padding: 50px;
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+}
+
+/*** Service ***/
+.service-item {
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.service-item:hover {
+    background: var(--primary);
+}
+
+.service-item .service-icon {
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: .5s;
+}
+
+.service-item i,
+.service-item h5,
+.service-item p {
+    transition: .5s;
+}
+
+.service-item:hover i,
+.service-item:hover h5,
+.service-item:hover p {
+    color: #FFFFFF !important;
+}
+
+/*** Footer ***/
+.newsletter {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+@media (max-width: 768px) {
+    #header- .car-item {
+        position: relative;
+        min-height: 450px;
+    }
+
+    #header- .car-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+#gototop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+}
+
+
+/* main start */
+
+.banner-card {
+    position: relative;
+}
+
+.banner-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 35%;
+    margin-left: 69%;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+@media (max-width:991.98px) {
+    h1 {
+        min-height: 30vh;
+    }
+}
+
+
+
+
+/* Terms & conditions start */
+.termscontainer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    height: 100%;
+}
+
+
+
+/* privacy_policy start*/
+
+td {
+    padding: 0.7rem;
+    border: 1px solid #6d6d6d
+}
+
+.privacycontainer {
+    padding: 50px;
+
+}
+
+
+
+/* exploremore start*/
+#post-1372 {
+    padding: 80px;
+}
+
+
+
+/* login page start */
+
+#logincontainer {
+    margin-top: 50px;
+}
+
+
+
+/* footer start */
+
+#center {
+    transition: .3s;
+
+}
+
+#center:hover {
+    letter-spacing: .5px;
+    box-shadow: none;
+}
